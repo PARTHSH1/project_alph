@@ -52,4 +52,4 @@ def index():
     return render_template('index.html', movie_list=movie_list, recommendations=recommendations)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8000)  # Change 8000 to your desired port
